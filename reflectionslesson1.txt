@@ -1,0 +1,35 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    It showed the changes made from an old file to a new one, so if the old file worked fine,
+	you can see the possible errors in the first file.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+	
+		You would be able to see how many times you had to edit a document in order to correct a bug, you could also restore past operations of the old document that you believed were useless at the time.  In the long term in particular, it helps you figure out how long it would take you to solve issues in the code.  
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Pros: The user can save when enough logical progress is made, the user has the freedom to save when they see it is appropriate.
+	Cons: The user may neglect to save after large changes, choose to save after too small of changes, or neglect to save altogether.  
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    This is because Git is specialized for software development, and the most common situation to need to save multiple files is having programs that interact with each other.  Google Docs seems to be used in a wider range of disciplines, so it makes sense that it would not use repository saving since that is most commonly used in software development.  
+
+How can you use the commands git log and git diff to view the history of files?
+
+    You can use git log to obtain information on all commits, along with the messages saved in each commit, and the id of the commit.  With git diff, you can compare any two commits to see what lines of code were added, and what lines of code were removed.  
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    You could easily make a new commit where you test experimental code that could destroy progress in the task, and then jump back to an older commit and branch off of that commit so your code-breaking doesn't interfere with your progress.  
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I want to use this workspace for my work in my capstone project, along with future programming projects that are larger in scale.  
