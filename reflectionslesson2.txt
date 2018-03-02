@@ -7,14 +7,27 @@ What value do you think it offers?
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+	For each logical change, you can add the files that underwent that change, and ignore those that are unaffected. Similar to answer above.  
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+	If you need to make any experimental changes to the project, or create unique versions of the project, branches are very useful.  Branches would help by letting specific functionalities be relegated to specific builds.  
+
 How do the diagrams help you visualize the branch structure?
+
+	Because the diagrams illustrate the way git would read the data, showing what nodes are parents.  
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+	Merging the branches adds changes from both branches together and makes master have 1 more parent.  We represent it the way we do since it shows that master is made up of the previous branch and master branch.   
+
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+Pros for auto:  a lot less overhead on the user's end
+Cons for auto:  Still have to edit documents if there are conflicts
+
+Pros for manual:  The user verifies all data is correct
+Cons for manual:  The user takes on a lot more work. 
