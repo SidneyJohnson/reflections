@@ -8,3 +8,6 @@ Why might you want to always pull changes manually rather than having Git automa
   Branches:  Paths of different functionality than the main project, used mostly with experimental code or load-sharing. 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 	In case you are going to be without internet access for a long time and need to access the original source.  
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+	Collaborating without gitHub would be harder since github is a great U.I. that is easy to understand, git is more difficult to understand.
+
