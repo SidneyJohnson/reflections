@@ -6,4 +6,5 @@ Why might you want to always pull changes manually rather than having Git automa
   Forks:  Github's version of clones, allows for proper permission to be given to creator with your own code injected that doesn't effect original code.  
   Clones: A copy of a repository, good to use for remote projects.
   Branches:  Paths of different functionality than the main project, used mostly with experimental code or load-sharing. 
- 
+What is the benefit of having a copy of the last known state of the remote stored locally?
+	In case you are going to be without internet access for a long time and need to access the original source.  
